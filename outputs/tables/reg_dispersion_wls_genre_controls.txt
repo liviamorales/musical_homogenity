@@ -1,0 +1,32 @@
+                            WLS Regression Results                            
+==============================================================================
+Dep. Variable:             dispersion   R-squared:                       0.745
+Model:                            WLS   Adj. R-squared:                  0.687
+Method:                 Least Squares   F-statistic:                     12.37
+Date:                Thu, 15 Jan 2026   Prob (F-statistic):           3.33e-08
+Time:                        11:07:40   Log-Likelihood:                 42.942
+No. Observations:                  44   AIC:                            -67.88
+Df Residuals:                      35   BIC:                            -51.83
+Df Model:                           8                                         
+Covariance Type:                  HC3                                         
+======================================================================================================
+                                         coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+Intercept                              0.9173      0.038     23.859      0.000       0.842       0.993
+C(broad_genre)[T.Rock]                 0.1196      0.027      4.459      0.000       0.067       0.172
+C(broad_genre)[T.Hip-Hop]             -0.0529      0.057     -0.930      0.353      -0.164       0.059
+C(broad_genre)[T.R&B/Soul]             0.0737      0.028      2.612      0.009       0.018       0.129
+C(broad_genre)[T.Electronic]          -0.0961      0.019     -5.031      0.000      -0.134      -0.059
+C(broad_genre)[T.Country]              0.0540      0.036      1.487      0.137      -0.017       0.125
+C(broad_genre)[T.Oldies/Standards]    -0.0030      0.093     -0.032      0.975      -0.185       0.179
+C(broad_genre)[T.Other]                0.0831      0.023      3.548      0.000       0.037       0.129
+decade_centered                       -0.0027      0.002     -1.731      0.084      -0.006       0.000
+==============================================================================
+Omnibus:                       17.308   Durbin-Watson:                   1.557
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.703
+Skew:                           0.912   Prob(JB):                     3.94e-09
+Kurtosis:                       7.217   Cond. No.                         246.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
